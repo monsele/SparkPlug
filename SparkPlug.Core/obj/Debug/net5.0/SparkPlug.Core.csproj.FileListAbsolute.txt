@@ -1,0 +1,12 @@
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\bin\Debug\net5.0\SparkPlug.Core.deps.json
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\bin\Debug\net5.0\SparkPlug.Core.dll
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\bin\Debug\net5.0\ref\SparkPlug.Core.dll
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\bin\Debug\net5.0\SparkPlug.Core.pdb
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\SparkPlug.Core.csproj.AssemblyReference.cache
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\SparkPlug.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\SparkPlug.Core.AssemblyInfoInputs.cache
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\SparkPlug.Core.AssemblyInfo.cs
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\SparkPlug.Core.csproj.CoreCompileInputs.cache
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\SparkPlug.Core.dll
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\ref\SparkPlug.Core.dll
+C:\Users\Eronmosele\source\repos\SparkPlug\SparkPlug.Core\obj\Debug\net5.0\SparkPlug.Core.pdb
