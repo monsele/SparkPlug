@@ -39,7 +39,8 @@ namespace SparkPlug
             });
             services.Configure<DatabaseSettings>(Configuration.GetSection(nameof(DatabaseSettings)));
             services.AddSingleton<IDatabaseSettings>(x => x.GetRequiredService<IOptions<DatabaseSettings>>().Value);
-            services.AddTransient<IRepository, Repository>();
+            services.AddTransient<IRepository, Repository>(); 
+            services.AddTransient<ICustomerDataService, CustomerDataService>();
             // Named Policy
             
             services.AddCors(c =>

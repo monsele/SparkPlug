@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9a91467e-3c48-4b95-a46d-a977bb56ecca": {
+      "ProjectGuid": "9a91467e-3c48-4b95-a46d-a977bb56ecca",
+      "DisplayName": "SparkPlug.Api",
+      "ColorIndex": 0
+    },
+    "b34cbbe1-fbf3-4d03-9ad8-97f40eb99543": {
+      "ProjectGuid": "b34cbbe1-fbf3-4d03-9ad8-97f40eb99543",
+      "DisplayName": "SparkPlug.Data",
+      "ColorIndex": 1
+    },
+    "04f1f872-2ae4-4d07-956a-5c31ca68c8c5": {
+      "ProjectGuid": "04f1f872-2ae4-4d07-956a-5c31ca68c8c5",
+      "DisplayName": "SparkPlug.Core",
+      "ColorIndex": 2
+    },
+    "7c8937b8-4efd-47d3-9ea2-fc3a285e5193": {
+      "ProjectGuid": "7c8937b8-4efd-47d3-9ea2-fc3a285e5193",
+      "DisplayName": "SparkPlug.Service",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

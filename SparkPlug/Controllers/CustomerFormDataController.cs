@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SparkPlug.Core.Dto;
 using SparkPlug.Core.Interfaces.Repository;
+using SparkPlug.Core.Interfaces.Services;
 using SparkPlug.Core.Models;
 using System.Threading.Tasks;
 
@@ -12,10 +13,10 @@ namespace SparkPlug.Api.Controllers
     [ApiController]
     public class CustomerFormDataController : ControllerBase
     {
-        private readonly IRepository _repository;
-        public CustomerFormDataController(IRepository repository)
+        private readonly ICustomerDataService _customerDataService;
+        public CustomerFormDataController(ICustomerDataService customerDataService)
         {
-            _repository = repository;
+            _customerDataService = customerDataService;
         }
 
 
@@ -25,15 +26,7 @@ namespace SparkPlug.Api.Controllers
         {
             try
             {
-                var formData = new CustomerFormData
-                {
-                    _formDomainName = customerFormDataDto._formDomainName,
-                    CustomerEmail = customerFormDataDto.customerEmail,
-                    CustomerMessage = customerFormDataDto.customerMessage,
-                    CustomerName = customerFormDataDto.customerName,
-
-                };
-                var result = await _repository.Add(formData);
+                var result = await _customerDataService.CreateCustomerDataForm(customerFormDataDto);
                 return Ok(result);
             }
             catch (System.Exception ex)

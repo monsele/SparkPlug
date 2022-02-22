@@ -12,6 +12,6 @@ namespace SparkPlug.Core.Interfaces.Repository
     {
 
         public Task<ResponseModel> Add(CustomerFormData entity);
-
+       
     }
 }
